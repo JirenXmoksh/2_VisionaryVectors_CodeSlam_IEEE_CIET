@@ -1,0 +1,134 @@
+
+*{
+    padding:0 ;
+    margin: 0 ;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.system{
+    display: flex;
+    justify-content: center;
+    width: 218px;
+    height: 40px;
+    margin-left: 40%;
+    background-color: #ffc045;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.system h{
+    width: 1082px;
+    font-size: 17px;
+    line-height: 29px;
+    color: #3d2514;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+}
+.InnerImageDiv1 {
+    width: 300px;
+    height: 3000px;
+    font-size: 17px;
+    line-height: 21px;
+    color: #243d14;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+
+.main-content {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.main-content h1 {
+    font-size: 38px;
+    line-height: 38px;
+    text-transform: uppercase;
+    color: #3d2514;
+    font-weight: 800;
+    font-family: "Alfa Slab One";
+    margin-bottom: 20px;
+}
+.main-content p {
+    width: 1082px;
+    margin: 0px auto;
+    height: 32px;
+    font-size: 17px;
+    line-height: 20px;
+    color: #3d2514;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+}
+.outerDiv{
+    display: flex;
+    flex-wrap:wrap;
+    width:100% ;
+    height: auto;
+    position: relative;
+    justify-content: space-around;
+}
+.innerDiv{
+    width: 367px;
+    height: 460px;
+    font-size: 17px;
+    line-height: 21px;
+    color: #243d14;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+div div .img {
+    margin-top: 5px;
+    width: 342px;
+    height: 271px;
+    box-sizing: border-box;
+}
+
+div .shadow {
+    width: 600px;
+    height: 100px;
+    top:-10% ;
+    left:-25% ;
+    position: relative;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 25px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #3d2514;
+    font-weight: 700;
+    position:  relative;
+    top:-15%;
+    font-family: "Bebas Neue";
+}
+p{
+    width: 367px;
+    height: 51px;
+    font-size: 17px;
+    line-height: 21px;
+    color: #3d2514;
+    font-weight: 400;
+    font-family: "Montserrat";
+    text-align: center;
+    position: relative;
+    top:-15%;
+}
+.btn{
+    width: 195px;
+    height: 57px;
+    background-color: #bf2222;
+    color:white;
+    border: none;
+    font-size: 17px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight:400;
+    position: relative;
+    top: -15%;
+    font-family: "Alfa Slab One";
+}
